@@ -31,3 +31,7 @@ print(type(byte))
 num1=int(input("Enter a number : "))
 num2=int(input("Enter another number : "))
 print(f"sum of {num1} and {num2} is {num1+num2}")
+
+a=10
+f=hex(a)
+print(f"Hexadecimal of {a} is {f}")
