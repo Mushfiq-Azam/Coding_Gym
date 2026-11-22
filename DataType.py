@@ -26,3 +26,8 @@ num=range(1,10)
 print(type(num))
 byte=bytes([1,2,3,4,5])
 print(type(byte))
+
+
+num1=int(input("Enter a number : "))
+num2=int(input("Enter another number : "))
+print(f"sum of {num1} and {num2} is {num1+num2}")
